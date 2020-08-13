@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_15" class="java.beans.XMLDecoder"> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.CmdWarmReset"/> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.context.CmdLoadContext"> 
+  <void property="cleanup"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="contextUri"> 
+   <string>.\TestJavaCardUsimRel6.gdp</string> 
+  </void> 
+  <void property="overwritting"> 
+   <boolean>true</boolean> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.smartcard.platform.gp.CmdAuthenticate"> 
+  <void id="AbstractParamArray0" property="abstractParams"/> 
+  <void property="abstractParams"> 
+   <object idref="AbstractParamArray0"/> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.smartcard.platform.gp.CmdInstallForLoad"> 
+  <void id="AbstractParamArray0" property="abstractParams"/> 
+  <void property="abstractParams"> 
+   <object idref="AbstractParamArray0"/> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.smartcard.platform.gp.CmdLoad"> 
+  <void id="AbstractParamArray0" property="abstractParams"/> 
+  <void property="abstractParams"> 
+   <object idref="AbstractParamArray0"/> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.smartcard.platform.gp.CmdInstallForInstall"> 
+  <void id="AbstractParamArray0" property="abstractParams"/> 
+  <void property="abstractParams"> 
+   <object idref="AbstractParamArray0"/> 
+  </void> 
+  <void property="contextualProperties"> 
+   <array class="com.gemplus.mugel.cmdfwk.context.ContextualProperty" length="14"> 
+    <void index="0"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Package.Aid</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Aid</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="2"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.Aid</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="3"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.Privilege</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="4"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.ApplicationSpecificParameters</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="5"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.RamSize</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="6"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.EepromSize</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="7"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.GSMParameter.Menus</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="8"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.GSMParameter.TextMaxLength</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="9"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.SIMAccessParameter.AccessDomainParameter</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="10"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.GSMParameter.PriorityLevel</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="11"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.GSMParameter.TimerMaxNumber</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="12"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.GSMParameter.MaxNumberOfMenuEntries</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="13"> 
+     <object class="com.gemplus.mugel.cmdfwk.context.ContextualProperty"> 
+      <void property="contextKey"> 
+       <string>JCProject.Application.Applet.1.Instance.1.SIMAccessParameter.AccessDomainData</string> 
+      </void> 
+      <void property="property"> 
+       <string>CmdPlatformParam</string> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.CmdWarmReset"/> 
+</java> 

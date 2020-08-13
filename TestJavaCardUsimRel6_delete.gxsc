@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_15" class="java.beans.XMLDecoder"> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.CmdWarmReset"/> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.context.CmdLoadContext"> 
+  <void property="cleanup"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="contextUri"> 
+   <string>.\TestJavaCardUsimRel6.gdp</string> 
+  </void> 
+  <void property="overwritting"> 
+   <boolean>true</boolean> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.smartcard.platform.gp.CmdAuthenticate"> 
+  <void id="AbstractParamArray0" property="abstractParams"/> 
+  <void property="abstractParams"> 
+   <object idref="AbstractParamArray0"/> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.smartcard.platform.gp.CmdDelete"> 
+  <void id="AbstractParamArray0" property="abstractParams"/> 
+  <void property="abstractParams"> 
+   <object idref="AbstractParamArray0"/> 
+  </void> 
+  <void property="contextualProperties"> 
+   <void index="0"> 
+    <void property="contextKey"> 
+     <string>JCProject.Application.Applet.1.Instance.1.Aid</string> 
+    </void> 
+    <void property="contextKeyFilter"> 
+     <string>JCProject.Application.Applet.*.Instance.*.Aid</string> 
+    </void> 
+   </void> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.smartcard.platform.gp.CmdDelete"> 
+  <void id="AbstractParamArray0" property="abstractParams"/> 
+  <void property="abstractParams"> 
+   <object idref="AbstractParamArray0"/> 
+  </void> 
+ </object> 
+ <object class="com.gemplus.mugel.cmdfwk.cmd.CmdWarmReset"/> 
+</java> 

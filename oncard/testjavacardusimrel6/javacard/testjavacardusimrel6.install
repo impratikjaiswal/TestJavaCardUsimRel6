@@ -1,0 +1,28 @@
+[CONVERT]
+PackageAID = A0000000185000000000000052414470
+PackageVersion = 2.0
+PackageName = testjavacardusimrel6
+AppletClassAID = A0000000185000000000000052414471
+AppletClassName = testjavacardusimrel6.TestJavaCardUsimRel6
+
+[LOAD]
+MaxLoadCommandDataLength = C2
+
+[INSTALL(load)]
+PackageAID = A0000000185000000000000052414470
+PackageNonVolatileMemSize = 0000
+
+[INSTALL(install)]
+PackageAID = A0000000185000000000000052414470
+AppletClassAID = A0000000185000000000000052414471
+InstanceAID = A0000000185000000000000052414471
+InstallationNonVolatileMemSize = 0000
+InstallationVolatileMemSize = 0000
+AccessDomain = 00
+PriorityLevel = 00
+MaxNumberOfTimers = 00
+MaxMenuEntryTextLength = 00
+MaxNumberOfMenuEntries = 00
+MaxMenuEntryNumber = 00
+MaxNumberOfChannels = 00
+MSLFieldLength = 00
